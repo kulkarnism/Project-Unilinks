@@ -5,7 +5,6 @@
   <div ="default">
 </#if>
 <form>
-<img src="///pic.bmp"></img>
 <br/>
 <#if universityObject?has_content>
 <h1><div align="center">Details of University</div></h1>
@@ -56,7 +55,7 @@
 </div>
 <#else>
 <h1><div align ="center"><font size=14>
-UNILINKS</div></h1></font>
+<img src="http://i41.tinypic.com/v5dao7.png"/></div></h1></font>
 <h3><div align ="center">Your one stop destination for university search</div></h3>
 <h3><div align ="center">Enter the name or part of the name of the university you are looking for</div></h3>
 <div align="center"><input type="text" name="searchText" /> <br/><br/>
