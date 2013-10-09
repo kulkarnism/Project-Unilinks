@@ -167,7 +167,7 @@ public class UniversityService
 		            			 
 		            			 input.put("universityObject",universityObject );
 		                         template.process(input, file);
-		                         System.out.println(file);
+		                         
 		                         
 		            		 }
 		            	 }
